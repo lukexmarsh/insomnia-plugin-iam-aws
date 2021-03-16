@@ -1,0 +1,27 @@
+{
+  "name": "insomnia-plugin-iam-aws",
+  "version": "1.0.0",
+  "description": "An Insomnia plugin to retrieve aws credentials for use with IAM authentication",
+  "main": "index.js",
+  "repository": "https://github.com/lukexmarsh/insomnia-plugin-iam-aws",
+  "insomnia": {
+    "name": "iamaws"
+  },
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "keywords": [
+    "insomnia",
+    "aws",
+    "iam"
+  ],
+  "author": "Luke Marsh",
+  "license": "ISC",
+  "dependencies": {
+    "awscred": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.0",
+    "typescript": "^3.7.4"
+  }
+}
