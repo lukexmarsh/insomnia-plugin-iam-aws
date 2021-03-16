@@ -12,9 +12,9 @@ var Attribute;
 })(Attribute || (Attribute = {}));
 exports.templateTags = [
     {
-        name: "aws_iam",
-        displayName: "aws_iam",
-        description: "Insomnia plugin - AWS IAM Cazoo",
+        name: "iamaws",
+        displayName: "iamaws",
+        description: "Insomnia plugin - IAM AWS",
         args: [
             {
                 displayName: "Attribute",
